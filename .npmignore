@@ -11,5 +11,3 @@ build/Release
 node_modules
 res
 examples
-src/
-test/
