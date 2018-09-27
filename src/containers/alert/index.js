@@ -94,7 +94,7 @@ export default class Alert extends Component {
     } = data;
 
     return (
-      <TouchableOpacity onPress={onPress}>
+      <TouchableOpacity style={{flex: 1}} onPress={onPress}>
         <View style={[styles.button, { backgroundColor }, buttonStyle]}>
           <Text style={[styles.buttonText, buttonTextStyle]}>{text}</Text>
         </View>
